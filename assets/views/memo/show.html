@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+View memo: {{ item.id }}
+{% endblock title %}
+
+{% block content %}
+<h1>View memo: {{ item.id }}</h1>
+<div class="mb-10">
+    <div>
+    <label><b>{{"title" | capitalize }}:</b> {{item.title}}</label>
+    </div>
+<div>
+    <label><b>{{"body" | capitalize }}:</b> {{item.body}}</label>
+    </div>
+<br />
+<a href="/memos">Back to memos</a>
+</div>
+{% endblock content %}
