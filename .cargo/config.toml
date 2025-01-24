@@ -1,5 +1,5 @@
 [alias]
-loco = "run --"
+loco = "run --bin copipe-cli --"
 loco-tool = "run --"
 
 playground = "run --example playground"
